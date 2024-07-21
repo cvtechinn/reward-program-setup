@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: '/reward-program-setu[/',
+  publicPath: '/reward-program-setup/',
 };
