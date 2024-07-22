@@ -46,6 +46,17 @@
                         <img src="@/assets/product6.jpg" > 
                       </div> 
                     {{ product.desc }}
+
+                      <div v-if="'product1.jpg' == product.image">
+                        <br/>
+                        Copy the below coupon code and use it in checkout page of {{ product.name }}
+                        <br/>
+                        <b>EMPSAVINGS</b>
+                        <br/>
+                        <br/>
+                        <a href="https://www.adidas.com/us" target="_blank">www.adidas.com</a>
+                      </div> 
+
                 </p>
                 </SlideoutPanel>
               </p>

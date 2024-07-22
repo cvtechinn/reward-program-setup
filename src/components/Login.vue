@@ -32,8 +32,8 @@ import router from '@/router';
     methods: {
       login() {
         // Replace with your actual login logic
-        if (this.email === 'abc@gmail.com' && this.password === 'a') {
-            alert('Login successful!');
+        if (this.email === 'abc@xyz.com' && this.password === 'abc') {
+            // alert('Login successful!');
             router.push({ path: 'about' })
         } else {
           alert('Invalid email or password.');

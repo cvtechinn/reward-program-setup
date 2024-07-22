@@ -11,7 +11,7 @@
         <img src="@/assets/CompanyLogo.png" > 
       </div>      
       <div class="user-options">
-        <span>Hi, ABC - abc@gmail.com</span>
+        <span>Hi, ABC - abc@xyz.com</span>
       </div>
 
     </header>

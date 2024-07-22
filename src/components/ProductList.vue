@@ -15,7 +15,7 @@
     data() {
       return {
         products: [
-          { id: 1, name: 'XYZ', price: 29.99, image: 'product1.jpg', desc: 'XYZ is a leading sports apparel provider.'},
+          { id: 1, name: 'Adidas', price: 29.99, image: 'product1.jpg', desc: 'Adidas is a leading sports shoes and apparel provider.'},
           { id: 2, name: 'Abc International', price: 59.99, image: 'product2.jpg', desc: 'Abc is offering Up to 50% Off New Markdowns + Earn 5% Reward Points'},
           { id: 3, name: 'Wonder Parks', price: 19.99, image: 'product3.jpg', desc: 'Wonder parks is providing a 10% discount for all employees'}
         ]
