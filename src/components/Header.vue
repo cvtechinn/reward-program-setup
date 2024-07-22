@@ -16,8 +16,10 @@
 
     </header>
     <nav class="nav-bar">
-            <a href="/reward-program-setup/about" id="new">New & Featured</a>
-            <a href="/reward-program-setup/popular" id="popular">Popular Perks</a>
+            <router-link to="/about">New & Featured</router-link>
+            <router-link to="/popular">Popular Perks</router-link>
+            <!-- <a href="/reward-program-setup/about" id="new">New & Featured</a>
+            <a href="/reward-program-setup/popular" id="popular">Popular Perks</a> -->
             <a href="#">Health</a>
             <a href="#">More</a>
         </nav>   
@@ -27,8 +29,9 @@
   export default {
     name: 'Header',
     methods: {
-      new() {  
+      clickMethod() {  
         alert('yup')
+        router.push({ path: 'about' })
       }
     }
   }
