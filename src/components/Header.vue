@@ -16,8 +16,8 @@
 
     </header>
     <nav class="nav-bar">
-            <a href="/about" id="new">New & Featured</a>
-            <a href="/popular" id="popular">Popular Perks</a>
+            <a href="/reward-program-setup/about" id="new">New & Featured</a>
+            <a href="/reward-program-setup/popular" id="popular">Popular Perks</a>
             <a href="#">Health</a>
             <a href="#">More</a>
         </nav>   
