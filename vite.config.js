@@ -12,7 +12,7 @@ export default defineConfig({
     vueJsx(),
     vueDevTools(),
   ],
-  base: '/reward-program-setup/dist/',
+  base: '/reward-program-setup/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
